@@ -1,0 +1,22 @@
+h1 {
+    color: pink;
+    background: salmon;
+    font-family: serif;
+    padding-bottom: 12px;
+}
+
+body {
+    background: papayawhip;
+    font-family: cursive;
+}
+
+h2 {
+    border: 1px solid firebrick;
+    padding: 12px 76px; /* top+bottom, l+r */
+    /* top, right, bottom, left */
+}
+
+li {
+    background: yellow;
+    color: mediumspringgreen;
+}
