@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Random Number Generator</h1>
+    <p>{{ a_very_random_number }}
+
+
+
+        is
+
+
+        <br>
+        your
+
+
+        number!</p>
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+    </ul>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+    </ol>
+
+    <h2>Your dice rolls:</h2>
+
+    <ul>
+        {% for roll in rolls %}
+            <li>{{ roll }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+
+</html>
