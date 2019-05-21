@@ -20,3 +20,8 @@ li {
     background: yellow;
     color: mediumspringgreen;
 }
+
+.invert-colors {
+    color: white;
+    background: black;
+}

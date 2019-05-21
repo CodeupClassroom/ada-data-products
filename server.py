@@ -36,3 +36,7 @@ def math_results():
         'math-results.html',
         result=result
     )
+
+@app.route('/bootstrap-demo')
+def bootstrap_demo():
+    return render_template('bootstrap.html')
